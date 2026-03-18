@@ -1,8 +1,8 @@
-site_name: Meterian Security - VS Code Extension
+site_name: Meterian Security - JetBrains Extension
 site_description: Detect and fix open-source vulnerabilities directly in your IDE
-site_url: https://meterianhq.github.io/vscode-extension-tracker/
-repo_url: https://github.com/MeterianHQ/vscode-extension-tracker
-repo_name: MeterianHQ/vscode-extension-tracker
+site_url: https://meterianhq.github.io/jetbrains-extension-tracker/
+repo_url: https://github.com/MeterianHQ/jetbrains-extension-tracker
+repo_name: MeterianHQ/jetbrains-extension-tracker
 
 theme:
   name: material
@@ -33,7 +33,6 @@ nav:
     - Overview: features/index.md
     - Autofix & Remediation: features/autofix.md
     - Notifications & Snoozing: features/snoozing.md
-    - MCP Server: features/mcp-server.md
   - Supported Languages: languages.md
   - Commands: commands.md
   - Configuration: configuration.md

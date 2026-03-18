@@ -21,7 +21,7 @@ See [Supported Languages](../languages.md) for the full list of manifests and lo
 
 One-click fixes that upgrade a vulnerable dependency to a safe version, right from the editor.
 
-- Available as a **Quick Fix lightbulb** on highlighted lines
+- Available as a **Quick Fix** on highlighted lines
 - Also accessible from the summary report and the Command Palette
 - Supports automatic version pinning for multiple languages and package managers
 
@@ -33,24 +33,9 @@ One-click fixes that upgrade a vulnerable dependency to a safe version, right fr
 
 Control when and how often the extension alerts you. Suppress noise without losing coverage.
 
-- Only notify when **new** vulnerabilities are discovered
 - **Snooze** a single finding or an entire manifest file for a configurable period
-- Configurable notification frequency: always, once per session, daily, weekly, or never
 
 [Full details →](snoozing.md)
-
----
-
-## MCP Server for AI Assistants
-
-The extension ships a built-in MCP server that exposes the Meterian vulnerability database to your AI assistant. Ask questions like:
-
-> *"Is any of my libraries currently vulnerable?"*
-> *"What's a safe version for axios?"*
-
-Supported tools: **Claude Code**, **Cursor**, **Windsurf**, **Gemini CLI**, **Codex**.
-
-[Full details →](mcp-server.md)
 
 ---
 

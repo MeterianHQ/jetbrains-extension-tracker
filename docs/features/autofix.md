@@ -10,9 +10,9 @@ When a vulnerability is detected, Meterian looks up the earliest safe version of
 
 Three ways to access the quick fix:
 
-1. **Lightbulb in the editor** — hover over a highlighted dependency line and click the lightbulb (or press `Ctrl+.` / `Cmd+.`)
+1. **Editor highlighting** — hover over a highlighted dependency line and click on the 'more actions.' or hover over a highlighted dependency and press 'Alt+Enter'
 2. **Summary report** — click the fix link next to any finding in the Components tab
-3. **Command Palette** — run `Open quickfix panel` (`Ctrl+Shift+P`)
+3. **Problems window** — open the problems tool window, right click on a warning created by Meterian Security SCA and then click 'Show Quick-Fixes'
 
 ## Supported languages
 
@@ -26,6 +26,7 @@ Three ways to access the quick fix:
 | **PHP** | `composer.json` | ✅ |
 | **Rust** | `Cargo.toml` | ✅ |
 | **Rust** | `Cargo.lock` | ✅ (uses `cargo update --precise`) |
+| **Golang** | `go.mod` | ✅ |
 
 !!! tip "Lockfile support for Rust"
     For transitive dependencies in `Cargo.lock`, Meterian uses `cargo update -p <package> --precise <version>` to pin the exact version without modifying `Cargo.toml`.
