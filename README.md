@@ -1,119 +1,56 @@
-# Meterian VS Code Extension - Public Issue Tracker
+# Meterian Security SCA Jetbrains Extension — Public Issue Tracker
 
 <table>
   <tr>
     <th align="center">
-      <a href="https://marketplace.visualstudio.com/items?itemName=meterian.meterian-heidi">
+      <a href="https://plugins.jetbrains.com/plugin/20161-meterian-security-sca/">
         <img
-          alt="Visual Studio Code Marketplace logo"
-          src="https://code.visualstudio.com/assets/branding/code-stable.png"
-          height="48"
+          alt="Jetbrains Marketplace logo"
+          src="https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.png"
+          style="height:48px;width:auto;"
         />
       </a><br/>
       Available on the
-      <a href="https://marketplace.visualstudio.com/items?itemName=meterian.meterian-heidi">Visual Studio Code Marketplace</a><br/>
-      <sub>for Visual Studio Code</sub>
+      <a href="https://plugins.jetbrains.com/plugin/20161-meterian-security-sca/">Jetbrains Marketplace</a><br/>
     </th>
-    <th align="center">
-      <a href="https://open-vsx.org/extension/Meterian/meterian-heidi">
-        <img
-          alt="OpenVSX Registry logo"
-          src="https://outreach.eclipse.foundation/hs-fs/hubfs/OpenVSX-logo.png?height=117&amp;name=OpenVSX-logo.png&amp;width=369"
-          height="48"
-        />
-      </a><br/>
-      Available on the
-      <a href="https://open-vsx.org/extension/Meterian/meterian-heidi">OpenVSX registry</a><br/>
-      <sub>for Cursor, VSCodium, Windsurf, Theia &amp; friends</sub>
-    </th>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://marketplace.visualstudio.com/items?itemName=meterian.meterian-heidi">
-        <img
-          alt="Visual Studio Marketplace Installs"
-          src="https://img.shields.io/endpoint?url=https://cdn.jsdelivr.net/gh/MeterianHQ/vscode-extension-tracker@main/badges/vscode-installs.json&logo=visual-studio-code&cacheSeconds=3600"
-        />
-      </a>
-      <a href="https://marketplace.visualstudio.com/items?itemName=meterian.meterian-heidi">
-        <img
-          alt="Version"
-          src="https://img.shields.io/endpoint?url=https://cdn.jsdelivr.net/gh/MeterianHQ/vscode-extension-tracker@main/badges/vscode-version.json&logo=visual-studio-code&cacheSeconds=3600"
-        />
-      </a>
-      <a href="https://marketplace.visualstudio.com/items?itemName=meterian.meterian-heidi">
-        <img
-          alt="Rating"
-          src="https://img.shields.io/endpoint?url=https://cdn.jsdelivr.net/gh/MeterianHQ/vscode-extension-tracker@main/badges/vscode-rating.json&logo=visual-studio-code&cacheSeconds=3600"
-        />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://open-vsx.org/extension/Meterian/meterian-heidi">
-        <img alt="Open VSX Downloads" src="https://img.shields.io/open-vsx/dt/Meterian/meterian-heidi?cacheSeconds=86400" />
-      </a>
-      <a href="https://open-vsx.org/extension/Meterian/meterian-heidi">
-        <img alt="OpenVSX Version" src="https://img.shields.io/open-vsx/v/Meterian/meterian-heidi?logo=open-vsx&label=version&cacheSeconds=86400" />
-      </a>
-      <a href="https://open-vsx.org/extension/Meterian/meterian-heidi">
-        <img alt="OpenVSX Rating" src="https://img.shields.io/open-vsx/stars/Meterian/meterian-heidi?logo=open-vsx&label=rating&cacheSeconds=43200" />
-      </a>
-    </td>
-  </tr>
 </table>
 
 
-This repository is the **public issue tracker** for the Meterian VS Code extension that detects and helps you fix open‑source vulnerabilities directly in your IDE. You can download it from the [marketplace](https://marketplace.visualstudio.com/items?itemName=meterian.meterian-heidi): it's completely free to use. 
-
-Alternatively, if you are using an alternative IDE (i.e. Cursor) you can find it on the [open-vsx marketplace](https://open-vsx.org/extension/Meterian/meterian-heidi).
-
+Meterian Security SCA is a **completely free** extension that detects open-source vulnerabilities in your project dependencies and helps you fix them, without leaving your IDE.
 
 ## Install & Quickstart
-Super easy to use:
-1. **Install** from your chosen marketplace (once!)
-2. Open a project (if not open yet)
-3. An analysis starts automatically, if the project is supported :)
-4. See the **report**, drill down into the details if you want
+
+1. **Install** the plugin from the jetbrains marketplace
+2. Open a project
+3. An analysis starts automatically
+4. See the **report**, drill down into the details
 5. Use **autofix** to automatically resolve the issues!
 
 
-## How to use this repository
+## Report an issue or request a feature
 
-Use this repo to:
-- **Report bugs** (with logs, repro steps, and environment details)
-- **Request features** and improvements
-- **Ask usage questions**
+Found a bug, have a feature request, or a question? The [GitHub issue tracker](https://github.com/MeterianHQ/jetbrains-extension-tracker/issues) is the right place. Use one of the links below to open a pre-filled form:
 
-> ⚠️ **Security disclosures**  
-> Please **do not** file security vulnerabilities here. Email **security@meterian.io** with details and a way to reproduce. We’ll acknowledge within 2 business days.
+- **Report a bug** → [Open form](https://github.com/MeterianHQ/jetbrains-extension-tracker/issues/new?template=bug_report.yml&labels=bug,needs-triage&title=%5BBUG%5D%20)
+- **Request a feature** → [Open form](https://github.com/MeterianHQ/jetbrains-extension-tracker/issues/new?template=feature_request.yml&labels=feature,needs-triage&title=%5BFEAT%5D%20)
+- **Ask a question** → [Open form](https://github.com/MeterianHQ/jetbrains-extension-tracker/issues/new?template=question.yml&labels=question,needs-triage&title=%5BQUESTION%5D%20)
 
-## Before you file an issue
-- Search **open issues** to avoid duplicates.
-- Include:
-  - **Extension version** (e.g., `v1.2.3`) & **VS Code version** (e.g., `1.93.0`)
-  - **OS** (e.g., macOS 14.5 / Windows 11 / Ubuntu 22.04)
-  - **Project language & package manager** (e.g., Java + Maven/Gradle, JavaScript + npm/yarn/pnpm, Python + pip/poetry, etc.)
-  - **Reproduction steps** and **expected vs. actual behavior**
-  - **Logs** from VS Code: `Help → Toggle Developer Tools → Console`
-  - Screenshots, if relevant
+> ⚠️ **Security disclosures**
+> Please **do not** file security vulnerabilities here. Email **security@meterian.io** with details and a way to reproduce. We'll acknowledge within 2 business days.
 
-## Quick links to file an issue
-- **Report a bug** → [Open form](https://github.com/MeterianHQ/vscode-extension-tracker/issues/new?template=bug_report.yml&labels=bug,needs-triage&title=%5BBUG%5D%20)
-- **Request a feature** → [Open form](https://github.com/MeterianHQ/vscode-extension-tracker/issues/new?template=feature_request.yml&labels=feature,needs-triage&title=%5BFEAT%5D%20)
-- **Ask a question** → [Open form](https://github.com/MeterianHQ/vscode-extension-tracker/issues/new?template=question.yml&labels=question,needs-triage&title=%5BQUESTION%5D%20)
 
-Remember: security issues are **not** tracked here; use **security@meterian.io**.
-
----
 ## Where to get help
+
 - **Discord (community support):** [![Discord](https://img.shields.io/badge/Discord-join-blue?logo=discord&logoColor=white)](https://discord.gg/gHP9eaZdkp)
- - **Documentation:** Visit the [documentation website](https://meterianhq.github.io/vscode-extension-tracker/)
-- **FAQ:** See our [FAQ document](FAQ.md) 
+- **FAQ:** See our [FAQ](faq.md)
+
 
 ## What data is transferred by the plugin?
-The system is powered by the [Meterian Kiwi](https://www.meterian.io/product/kiwi/) vulnerability database. The APIs are called passing an opaque identifier as an authorization header; the data transferred is the name, version and language of a library. Additionally another API is called from [Meterian Heidi](https://www.meterian.io/product/heidi/) backend services, which is used to track activity. Any identity information is anonymized, encrypted with strong cypher, and cannot be decyphered.   
+
+The system is powered by the [Meterian Kiwi](https://www.meterian.io/product/kiwi/) vulnerability database. The APIs are called passing an opaque identifier as an authorization header; the data transferred is the name, version and language of a library. Additionally another API is called from [Meterian Heidi](https://www.meterian.io/product/heidi/) backend services, which is used to track activity. Any identity information is anonymized, encrypted with strong cipher, and cannot be deciphered.
 
 
 ## Contributing feedback
-While the extension is closed source and this repository contains no code, your feedback here directly shapes our backlog and priorities. The extension is completely free to use.
+
+While the extension is closed source and the [issue tracker repository](https://github.com/MeterianHQ/jetbrains-extension-tracker) contains no code, your feedback directly shapes our backlog and priorities. The extension is completely free to use.
 
