@@ -40,7 +40,7 @@ Oh, and we usually skip non-production packages, because we know you’re too sm
 
 ## 💬 It doesn’t support `$language` / `$tool`!
 
-Easy fix: open an [public feature request](https://github.com/MeterianHQ/vscode-extension-tracker/issues/new?template=feature_request.yml&labels=feature,needs-triage&title=%5BFEAT%5D%20) and rally the votes (colleagues, family, your cat... They all count).  
+Easy fix: open an [public feature request](https://github.com/MeterianHQ/jetbrains-extension-tracker/issues/new?template=feature_request.yml&labels=feature,needs-triage&title=%5BFEAT%5D%20) and rally the votes (colleagues, family, your cat... They all count).  
 The more noise, the faster it happens!
 
 ---
@@ -48,7 +48,7 @@ The more noise, the faster it happens!
 ## 💸 It’s too expensive!
 
 Mate… it’s literally **free**.  
-Just hit [the marketplace](https://marketplace.visualstudio.com/items?itemName=meterian.meterian-heidi) and install it already.
+Just hit [the marketplace](https://plugins.jetbrains.com/plugin/20161-meterian-security-sca/) and install it already.
 
 ---
 
@@ -59,24 +59,12 @@ That’s it.
 
 ---
 
-## 🔄 I changed my manifest file, or switched branches: why I am not getting a report?
-
-Good catch, and you’re not imagining things. The extension **watches manifest files** (like `pom.xml`, `package.json`, etc.) and it does re-analyse when they change. But it *intentionally* **doesn’t pop the report back up if there are no new findings**.
-
-Why? Because being helpful is great, but *constantly yelling the same thing at you* is not. So if the scan after your change produces the exact same results as before, the plugin stays quiet to avoid nagging you. If you want to be 100% sure after a big change, just run a manual scan from the Command Palette. 
-(see related discussion at [this issue](https://github.com/MeterianHQ/vscode-extension-tracker/issues/10))
-
-
----
 ## 🧾 How do I collect logs for an issue?
 
 When something goes bump, attaching the extension log helps us fix it fast.
-
-- **Log file (Linux/macOS):**  
-  `~/.meterian/heidi/logs/application.log`
-  
-- **Log file (Windows):**  
-  `%USERPROFILE%\.meterian\heidi\logs\application.log`
+To find to logs for the IDE: 
+- go to 'Help' > 'Show Log in Files'
+- copy the idea.log file 
 
 **How to attach:**
 1. Reproduce the problem.

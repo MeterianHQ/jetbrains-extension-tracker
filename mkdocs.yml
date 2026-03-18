@@ -34,7 +34,7 @@ nav:
     - Autofix & Remediation: features/autofix.md
     - Notifications & Snoozing: features/snoozing.md
   - Supported Languages: languages.md
-  - Commands: commands.md
+  - Tool Menu Actions: toolMenuActions.md
   - Configuration: configuration.md
   - Roadmap: roadmap.md
   - FAQ: faq.md

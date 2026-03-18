@@ -40,7 +40,7 @@ Oh, and we usually skip non-production packages, because we know you’re too sm
 
 ## 💬 It doesn’t support `$language` / `$tool`!
 
-Easy fix: open an [public feature request](https://github.com/MeterianHQ/vscode-extension-tracker/issues/new?template=feature_request.yml&labels=feature,needs-triage&title=%5BFEAT%5D%20) and rally the votes (colleagues, family, your cat... They all count).  
+Easy fix: open an [public feature request](https://github.com/MeterianHQ/jetbrains-extension-tracker/issues/new?template=feature_request.yml&labels=feature,needs-triage&title=%5BFEAT%5D%20) and rally the votes (colleagues, family, your cat... They all count).  
 The more noise, the faster it happens!
 
 ---
@@ -64,7 +64,7 @@ That’s it.
 Good catch, and you’re not imagining things. The extension **watches manifest files** (like `pom.xml`, `package.json`, etc.) and it does re-analyse when they change. But it *intentionally* **doesn’t pop the report back up if there are no new findings**.
 
 Why? Because being helpful is great, but *constantly yelling the same thing at you* is not. So if the scan after your change produces the exact same results as before, the plugin stays quiet to avoid nagging you. If you want to be 100% sure after a big change, just run a manual scan from the Command Palette. 
-(see related discussion at [this issue](https://github.com/MeterianHQ/vscode-extension-tracker/issues/10))
+(see related discussion at [this issue](https://github.com/MeterianHQ/jetbrains-extension-tracker/issues/10))
 
 
 ---
