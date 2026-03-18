@@ -1,6 +1,10 @@
 # Configuration
 
-A configuration panel is available for a more tailored experience. Global settings are under 'Tools > Meterian Security SCA Settings'. Project settings are under 'Tools > Meterian Security SCA Settings' > Project Preferences
+The Meterian Security SCA plugin's configuration can be found in the `File > Settings... > Tools` menu.
+
+Global settings are under `File > Settings... > Tools > Meterian Security SCA Settings` .
+
+Project settings are under `File > Settings... > Tools > Meterian Security SCA Settings > Project Preferences`
 
 ## Global Settings
 

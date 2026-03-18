@@ -1,6 +1,6 @@
 # Tool Menu Actions
 Meterian Security SCA provides a number of actions that you can use to control the plugin.
-The actions can be found under the 'Tools' menu
+The actions can be found under the 'Tools' menu.
 
 ## API Token Actions
 | Action | Description |
