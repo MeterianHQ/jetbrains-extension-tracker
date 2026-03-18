@@ -48,7 +48,7 @@ The more noise, the faster it happens!
 ## 💸 It’s too expensive!
 
 Mate… it’s literally **free**.  
-Just hit [the marketplace](https://marketplace.visualstudio.com/items?itemName=meterian.meterian-heidi) and install it already.
+Just hit [the marketplace](https://plugins.jetbrains.com/plugin/20161-meterian-security-sca/) and install it already.
 
 ---
 
