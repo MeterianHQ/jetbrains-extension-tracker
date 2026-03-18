@@ -1,5 +1,5 @@
 name: "🐛 Bug report"
-description: Report a reproducible problem with the Meterian VS Code extension.
+description: Report a reproducible problem with the Meterian Jetbrains extension.
 title: "[BUG] <short summary>"
 labels: ["needs-triage"]
 type: "Bug"
@@ -29,10 +29,17 @@ body:
     validations:
       required: true
   - type: input
-    id: vscode_version
+    id: ide_family
+    attributes: 
+      label: IDE family
+      placeholder: "Pycharm Community, Intellij Community, Webstorm etc."
+    validations:
+      required: true
+  - type: input
+    id: ide_version
     attributes:
-      label: VS Code version
-      placeholder: "1.93.0"
+      label: IDE version
+      placeholder: "PC-253.31033.139"
     validations:
       required: true
   - type: input
@@ -74,7 +81,7 @@ body:
     id: logs
     attributes:
       label: Relevant logs / console output
-      description: Paste logs from VS Code (Help → Toggle Developer Tools → Console). Redact sensitive info.
+      description: Paste logs from IDE (Help → Show Logs In File). Redact sensitive info.
       render: shell
   - type: textarea
     id: screenshots

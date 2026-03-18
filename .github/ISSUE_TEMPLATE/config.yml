@@ -4,7 +4,7 @@ contact_links:
     url: mailto:security@meterian.io
     about: Please do not open a public issue for security vulnerabilities. Email us instead.
   - name: 📚 FAQ
-    url: https://github.com/MeterianHQ/vscode-extension-tracker/blob/readme-updates/FAQ.md
+    url: https://github.com/MeterianHQ/jetbrains-extension-tracker/blob/readme-updates/FAQ.md
     about: Read our FAQs and troubleshooting tips.
   - name: 💬 Community Support (Discord)
     url: https://discord.gg/gHP9eaZdkp
