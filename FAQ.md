@@ -58,13 +58,12 @@ We don’t want your data, not even your email, we transfer only name, version a
 That’s it.
 
 ---
-
 ## 🧾 How do I collect logs for an issue?
 
 When something goes bump, attaching the extension log helps us fix it fast.
-To find to logs for the IDE: 
-- go to 'Help' > 'Show Log in Files'
-- copy the idea.log file 
+
+- go to 'Help' > 'Show Log In Files'
+- attach the idea.log file to the issue or include a relevant snippet of the logs.
 
 **How to attach:**
 1. Reproduce the problem.
