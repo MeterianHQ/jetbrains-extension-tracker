@@ -6,9 +6,8 @@ Meterian Security is designed to be informative without being noisy. You have fu
 
 To suppress a specific vulnerability without fixing it:
 
-1. Open the **Quick Fix** menu on the affected line (lightbulb or `Ctrl+.`)
-2. Select **Snooze this issue**
-3. Choose a duration
+1. Open the **actions** menu on the affected line (hover on the highlighted dependency and press `more actions..` or  hover and press `Alt+Enter`)
+3. Snooze the vulnerability for your desired duration
 
 The finding is hidden for the chosen period. When the snooze expires, it reappears automatically.
 
@@ -16,8 +15,8 @@ The finding is hidden for the chosen period. When the snooze expires, it reappea
 
 To silence all findings for a specific file (e.g. while you're mid-refactor):
 
-1. Right-click the manifest file in the **Explorer panel**
+1. Right-click the manifest file in the **project view**
 2. Select **Snooze Meterian notifications for this file**
 3. Choose a duration
 
-To undo: right-click the file again and select **Unsnooze**.
+To undo: right-click the file again and select **Unsnooze Meterian notifications**.
